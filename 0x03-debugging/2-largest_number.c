@@ -22,12 +22,12 @@ int main(void)
 	}
 	else if (b > c && b > a)
 	{
-	largest = b
+	largest = b;
 	printf("%d is the largest number\n", b);
 	}
 	else
 	{
-	largest = c
+	largest = c;
 	printf("%d is the largest number\n", c);
 	}
 	return (0);
