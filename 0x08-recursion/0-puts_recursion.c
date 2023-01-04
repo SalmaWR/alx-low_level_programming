@@ -1,26 +1,20 @@
-#include"main.h"
-#include<stdio.h>
+#include "main.h"
 
-/*
-* Authar : Salma Wagdy
-* Description : Here is a recursive function in C that prints a string
-* Return : value
-*/
+/**
+ * _puts_recursion - print a string.
+ * @s: pointer to char
+ * Return: No.
+ */
 
 void _puts_recursion(char *s)
 {
-	if (*s == '\0')
+	if (*s != '\0')
 	{
-	printf("\n");
-	return;
+		_putchar(s[0]);
+		_puts_recursion(s + 1);
 	}
-	putchar(*s);
-	_puts_recursion(s++);
-}
-
-int main() 
-{
-   char *s = "First, solve the problem. Then, write the code";
-   _puts_recursion(s);
-   return 0;
+	else
+	{
+	_putchar('\n');
+	}
 }
