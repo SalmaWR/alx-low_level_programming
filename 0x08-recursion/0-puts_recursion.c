@@ -9,6 +9,7 @@
 
 void _puts_recursion(char *s)
 {
+char s[] = "First, solve the problem. Then, write the code";
 	if (*s == '\0')
 	{
 	printf("\n");
