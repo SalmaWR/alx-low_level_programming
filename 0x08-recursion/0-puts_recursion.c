@@ -9,7 +9,6 @@
 
 void _puts_recursion(char *s)
 {
-char s[] = "First, solve the problem. Then, write the code";
 	if (*s == '\0')
 	{
 	printf("\n");
@@ -17,4 +16,11 @@ char s[] = "First, solve the problem. Then, write the code";
 	}
 	putchar(*s);
 	_puts_recursion(s++);
+}
+
+int main() 
+{
+   char *s = "First, solve the problem. Then, write the code";
+   _puts_recursion(s);
+   return 0;
 }
