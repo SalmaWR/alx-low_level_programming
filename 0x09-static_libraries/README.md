@@ -4,9 +4,9 @@ MyStaticLibrary is a static library that provides a collection of useful utility
 
 ## **Installation**
 
-To use MyStaticLibrary in your project, you will first need to add the library to your project's dependencies. You can do this by copying the libMyStaticLibrary.a file into your project's directory, and linking it with your project's build process.
+To use MyStaticLibrary in your project, you will first need to add the library to your project's dependencies. You can do this by copying the libMy.a file into your project's directory, and linking it with your project's build process.
 ```C
-#include "MyStaticLibrary.h"
+#include "main.h"
 
 int main() {
     int result = my_function();
