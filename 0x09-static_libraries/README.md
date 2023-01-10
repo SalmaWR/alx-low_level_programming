@@ -1,6 +1,6 @@
 # **MyStaticLibrary**
 
-MyStaticLibrary is a static library that provides a collection of useful utility functions for C/C++ projects. It is designed to be lightweight and easy to use, and it can be integrated into any C/C++ project with minimal effort.
+MyStaticLibrary is a static library that provides a collection of useful utility functions for C projects. It is designed to be lightweight and easy to use, and it can be integrated into any C project with minimal effort.
 
 ## **Installation**
 
